@@ -1,5 +1,6 @@
 html{
     font-size: 16px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
 /* Redimensión de fuente utilizando rem */
@@ -9,6 +10,7 @@ p{
 
 h1{
     font-size: 3rem;
+    margin: 0;
 }
 
 h3{
@@ -59,6 +61,54 @@ body{
     width: 16.66%;
     float: left;
 }
+
+header{
+    height: 100vh;
+    background-image: url("../img/photo-1516331138075-f3adc1e149cd.jfif");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-1{
+    background-image:url("../img/photo-1502134249126-9f3755a50d78.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+#card-2{
+    background-image:url("../img/photo-1506443432602-ac2fcd6f54e0.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+#card-3{
+    background-image:url("../img/photo-1531306728370-e2ebd9d7bb99.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+#card-4{
+    background-image:url("../img/photo-1507499739999-097706ad8914.jfif");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.padding-s{
+    padding: 4%;
+}
+/*Utilizamos esto para que no se salga de la columna padre
+img{
+    width: 100%;
+}
+*/
+
 
 /* Otras clases */
 
