@@ -2,6 +2,10 @@ html{
     font-size: 16px;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
+A{
+    text-decoration: none;
+    color: black;
+}
 
 /* Redimensión de fuente utilizando rem */
 p{
@@ -24,6 +28,7 @@ h3{
 body{
     margin: 0;
 }
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -64,7 +69,7 @@ body{
 
 header{
     height: 100vh;
-    background-image: url("../img/photo-1516331138075-f3adc1e149cd.jfif");
+    background-image: url("../img/328472.jpg");
     background-size: cover;
     background-position: center;
     color: white;
@@ -76,32 +81,63 @@ header{
     justify-content: center;
 }
 #card-1{
-    background-image:url("../img/photo-1502134249126-9f3755a50d78.jfif");
+    background-image:url("../img/capibara.jpg");
     background-size: cover;
     background-position: center;
     height: 60vh;
 }
 #card-2{
-    background-image:url("../img/photo-1506443432602-ac2fcd6f54e0.jfif");
+    background-image:url("../img/bald-cat-names-sphynx-1.jpg");
     background-size: cover;
     background-position: center;
     height: 60vh;
 }
 #card-3{
-    background-image:url("../img/photo-1531306728370-e2ebd9d7bb99.jfif");
+    background-image:url("../img/11240264_2018-05-08-21-14-42.jpg");
     background-size: cover;
     background-position: center;
     height: 60vh;
 }
 #card-4{
-    background-image:url("../img/photo-1507499739999-097706ad8914.jfif");
+    background-image:url("../img/capibara\ mariposa.jpg");
     background-size: cover;
     background-position: center;
     height: 60vh;
 }
-
+#card-5{
+    background-image:url("../img/capibara\ mono.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+#card-6{
+    background-image:url("../img/capibara\ nadando.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+#card-7{
+    background-image:url("../img/capibara\ serio.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
 .padding-s{
     padding: 4%;
+}
+footer{
+    background-color:rgb(51, 50, 50);
+    margin: 0px;
+    color: white;
+}
+
+.footer2{
+    background-color: black;
+}
+
+.footer2 p{
+    color:white;
+    margin: 0px;
 }
 /*Utilizamos esto para que no se salga de la columna padre
 img{
